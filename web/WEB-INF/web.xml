@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <display-name>Complex</display-name>
+    <servlet>
+        <servlet-name>addByAdmin</servlet-name>
+        <servlet-class>servlets.addByAdmin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addByAdmin</servlet-name>
+        <url-pattern>/addB</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>delByAdmin</servlet-name>
+        <servlet-class>servlets.delByAdmin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>delByAdmin</servlet-name>
+        <url-pattern>/del</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>redByAdmin</servlet-name>
+        <servlet-class>servlets.redByAdmin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>redByAdmin</servlet-name>
+        <url-pattern>/red</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <display-name>CheckSign</display-name>
+        <servlet-name>CheckSign</servlet-name>
+        <servlet-class>servlets.CheckSign</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckSign</servlet-name>
+        <url-pattern>/check</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Registration</servlet-name>
+        <servlet-class>servlets.Registration</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Registration</servlet-name>
+        <url-pattern>/reg</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <display-name>addUser</display-name>
+        <servlet-name>addUser</servlet-name>
+        <servlet-class>servlets.addUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addUser</servlet-name>
+        <url-pattern>/add</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+       <welcome-file>signin.jsp</welcome-file>
+   </welcome-file-list>
+
+
+</web-app>

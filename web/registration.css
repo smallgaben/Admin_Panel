@@ -1,0 +1,53 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #EEE;
+}
+
+.form-group-lg{
+    max-width: 40%;
+    padding: 15px;
+    margin: 0px auto;
+}
+
+.form-group-lg{
+    text-align: center;
+}
+
+.form-control input[type="text"] {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.form-control input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.form-control {
+    position: relative;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-group-lg input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"] + label.musicTypes {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
+    background-color: #B4D6E0;
+    color: #333;
+
+}
+
+input[type="checkbox"]:checked + label.musicTypes{
+    background-color: #337AB7;
+
+    color:white;
+}
